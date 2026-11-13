@@ -49,7 +49,9 @@ Second test:
 ### 3. Terminal: `docker-compose up` (POST request logged)
 ![docker-compose up](screenshots/3-docker-compose-up.png)
 
-### 4. `log.txt` inside the container
+### 4. Terminal: `log.txt` inside the container
+![log.txt in container](screenshots/4-log-txt.png)
+
 ```console
 $ docker-compose exec web_app cat log.txt
 [2026-11-13 11:00:12] Hello from Docker! - Network Programming Chapter 2
