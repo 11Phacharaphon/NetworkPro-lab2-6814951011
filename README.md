@@ -19,7 +19,7 @@ A Flask web app that takes a message from a web form (**HTTP POST**), shows it o
 
 ## How to run
 ```bash
-git clone https://github.com/<username>/NetworkPro-lab2-6814951011.git
+git clone https://github.com/11Phacharaphon/NetworkPro-lab2-6814951011.git
 cd NetworkPro-lab2-6814951011
 docker-compose up --build -d
 ```
