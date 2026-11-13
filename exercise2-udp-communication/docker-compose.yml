@@ -1,0 +1,15 @@
+services:
+  udp_server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    ports:
+      - "8080:8080/udp"
+    tty: true  # ให้ container รันต่อไป
+
+  udp_client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    depends_on:
+      - udp_server

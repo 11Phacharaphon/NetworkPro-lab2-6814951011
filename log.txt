@@ -1,0 +1,2 @@
+[2026-11-13 11:00:12] Hello from Docker! - Network Programming Chapter 2
+[2026-11-13 11:00:12] สวัสดีครับ ทดสอบภาษาไทย
